@@ -92,12 +92,7 @@ plus.addEventListener("click", () => {
 // })
 const odoo = document.querySelector("#odoo");
 odoo.addEventListener("click", () => {
-    if (currentInput) {
-        currentInput = "0";
-        resultDisplayed = false;
-    } else {
-        currentInput += "0";
-    }
+    currentInput += "0";
     updateDisplay();
 });
 const erase = document.querySelector("#erase");
