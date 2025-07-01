@@ -12,6 +12,7 @@
    margin: 0 auto;
   }
   .calculator {
+    margin-top: 50px;
     width: 31rem;
     height: 39rem;
     display: flex;
