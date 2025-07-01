@@ -30,6 +30,8 @@
     display: flex;
     justify-content: center;
     align-self: center;
+    border-radius: 25px;
+    border: none;
   }
 
   .display p {
