@@ -3,7 +3,6 @@ let firstNumber = "";
 let secondNumber = "";
 let currentOperator = "";
 let result = "";
-resultDisplayed = false;
 
 //Adding Event listener to my Calculator app
 //clear
@@ -28,32 +27,17 @@ divide.addEventListener("click", () => {
 })
 const seven = document.querySelector("#seven");
 seven.addEventListener("click", () => {
-    if (resultDisplayed) {
-        currentInput = "7";
-        resultDisplayed = false;
-    } else {
-        currentInput += "7";
-    }
+    currentInput += "7";
     updateDisplay();
 });
 const eight = document.querySelector("#eight");
 eight.addEventListener("click", () => {
-    if (resultDisplayed) {
-        currentInput = "8";
-        resultDisplayed = false;
-    } else {
-        currentInput += "8";
-    }
+    currentInput += "8";
     updateDisplay();
 });
 const nine = document.querySelector("#nine");
 nine.addEventListener("click", () => {
-    if (resultDisplayed) {
-        currentInput = "9";
-        resultDisplayed = false;
-    } else {
-        currentInput += "9";
-    }
+    currentInput += "9";
     updateDisplay();
 });
 const multiply = document.querySelector("#multiply");
@@ -63,33 +47,18 @@ multiply.addEventListener("click", () => {
 });
 const four = document.querySelector("#four");
 four.addEventListener("click", () =>{
-    if (resultDisplayed) {
-        currentInput = "4";
-        resultDisplayed = false;
-    } else {
-        currentInput += "4";
-    }
+    currentInput += "4";
     updateDisplay();
 });
 const five = document.querySelector("#five");
 five.addEventListener("click", () =>{
-    if (resultDisplayed) {
-        currentInput = "5";
-        resultDisplayed = false;
-    } else {
-        currentInput += "5";
-    }
+    currentInput += "5";
     updateDisplay();
 });
 const six = document.querySelector("#six");
 six.addEventListener("click", () =>{
-    if (resultDisplayed) {
-        currentInput = "6";
-        resultDisplayed = false;
-    } else {
-        currentInput += "6";
-    }
-    updateDisplay();
+    currentInput += "6";  
+    updateDisplay()
 });
 const minus = document.querySelector("#minus");
 minus.addEventListener("click", () => {
@@ -98,32 +67,17 @@ minus.addEventListener("click", () => {
 })
 const one = document.querySelector("#one");
 one.addEventListener("click", () =>{
-    if (resultDisplayed) {
-        currentInput = "1";
-        resultDisplayed = false;
-    } else {
-        currentInput += "1";
-    }
+    currentInput += "1";
     updateDisplay();
 });
 const two = document.querySelector("#two");
 two.addEventListener("click", () =>{
-    if (resultDisplayed) {
-        currentInput = "2";
-        resultDisplayed = false;
-    } else {
-        currentInput += "2";
-    }
+    currentInput += "2";
     updateDisplay();
 });
 const three = document.querySelector("#three");
 three.addEventListener("click", () =>{
-    if (resultDisplayed) {
-        currentInput = "3";
-        resultDisplayed = false;
-    } else {
-        currentInput += "3";
-    }
+    currentInput += "3";
     updateDisplay();
 });
 const plus = document.querySelector("#plus");
